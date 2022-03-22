@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+
+    width: 300px;
+    /* height: 300px; */
+
+    padding: 25px;
+    border-radius: 10px;
+
+    background-color: rgb(182, 138, 223);
+}
+
+.label_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+
+    width: 100%;
+}
+
+input {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+
+    background-color: white;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+
+    border-radius: 7px;
+
+    background-color: rgb(17, 243, 17);
+
+    color: black;
+
+    cursor: pointer;
+}
