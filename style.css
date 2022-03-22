@@ -30,7 +30,7 @@ body {
     padding: 25px;
     border-radius: 10px;
 
-    background-color: rgb(182, 138, 223);
+    background-color: rgba(192, 138, 223, 0.507);
 }
 
 .label_input {
@@ -73,4 +73,8 @@ button {
     color: black;
 
     cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(17, 243, 17, 0.637);
 }
