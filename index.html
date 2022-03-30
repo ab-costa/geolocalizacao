@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="index.js" defer></script>
     <title>Coordenadas</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- <script src="./index.js"></script> -->
 </head>
 <body>
-    <div class="body_box" id="body_box">
+    <div class="body_box" id="body_box">        
         <div class="card">
             <label class="label_input" for="Latitude">
                 Latitude:
@@ -24,8 +27,13 @@
             <button id="finalizarTrekking">Finalizar</button>
         </div>
         <div class="card-latitude-longitude" id="card-latitude-longitude">
-    
+            <div id="map"></div>
         </div>
     </div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPqh5vYNhmUf2JuY-PMW1TzyNm7vWrASo&callback=initMap&v=weekly"
+      async
+    ></script> 
 </body>
 </html>
